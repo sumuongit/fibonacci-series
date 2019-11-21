@@ -34,8 +34,8 @@ namespace fibonacci_series
         {
             Fibonacci fibo = new Fibonacci();  
             Console.Write("INPUT: Please enter the number of elements: ");           
-            int inputNumbe = Convert.ToInt32(Console.ReadLine());
-            List<int> fiboSeries = fibo.FibonacciSeries(inputNumbe);
+            int inputNumber = Convert.ToInt32(Console.ReadLine());
+            List<int> fiboSeries = fibo.FibonacciSeries(inputNumber);
             Console.WriteLine();
             Console.WriteLine("OUTPUT: The resultant Fibonacci series is as follows: ");
             Console.WriteLine("======================================================");
